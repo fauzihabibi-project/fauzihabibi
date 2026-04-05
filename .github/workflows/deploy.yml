@@ -16,12 +16,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
-          cache: 'npm'
+          node-version: '20'
 
       - name: Install dependencies
         run: |
-          rm -f package-lock.json
+          rm -rf package-lock.json node_modules
           npm install
 
       - name: Build project
