@@ -77,6 +77,15 @@ const USER_DATA = {
       tags: ['Laravel', 'Livewire', 'MySQL'],
       link: '#',
       github: 'https://github.com/fauzihabibi-project/survey.git'
+    },
+    {
+      id: '8',
+      title: 'Drone Underwater',
+      description: 'An underwater drone that can be controlled remotely and can be used for various purposes such as exploration, research, and education.',
+      image: 'img/project8.png',
+      tags: ['Arduino', 'C++', 'Html', 'Css', 'Js'],
+      link: '#',
+      github: 'https://github.com/fauzihabibi-project/droneunderwater.git'
     }
   ],
   certificates: [
