@@ -13,18 +13,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20'
-
-      - name: Install dependencies
+      - name: Prepare Deployment Files
         run: |
-          rm -rf package-lock.json node_modules
-          npm install
-
-      - name: Build project
-        run: npm run build
+          mkdir dist
+          cp -r index.html css/ js/ img/ dist/
 
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
