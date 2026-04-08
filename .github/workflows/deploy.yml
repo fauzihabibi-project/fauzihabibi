@@ -26,11 +26,11 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Deploy via FTP to HostData
+      - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
+          server: 82.25.62.13
+          username: portofolio@fauzihabibi.my.id
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
-          server-dir: /public_html/
+          server-dir: /domains/portofolio.fauzihabibi.my.id/public_html/
