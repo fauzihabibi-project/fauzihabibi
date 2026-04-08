@@ -83,7 +83,7 @@ const USER_DATA = {
       title: 'Drone Underwater',
       description: 'An underwater drone that can be controlled remotely and can be used for various purposes such as exploration, research, and education.',
       image: 'img/project8.png',
-      tags: ['Arduino', 'C++', 'Html', 'Css', 'Js'],
+      tags: ['ESP32', 'C++', 'Html', 'Css', 'Js'],
       link: '#',
       github: 'https://github.com/fauzihabibi-project/droneunderwater.git'
     }
