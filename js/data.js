@@ -86,6 +86,15 @@ const USER_DATA = {
       tags: ['ESP32', 'C++', 'Html', 'Css', 'Js'],
       link: '#',
       github: 'https://github.com/fauzihabibi-project/droneunderwater.git'
+    },
+    {
+      id: '9',
+      title: 'Money Track',
+      description: 'A modern financial recording system that helps you effectively monitor every transaction. Understand your spending patterns in real time.',
+      image: 'img/project9.png',
+      tags: ['Laravel', 'Livewire', 'MySQL'],
+      link: '#',
+      github: '#'
     }
   ],
   certificates: [
